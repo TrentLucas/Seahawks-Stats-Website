@@ -1,0 +1,58 @@
+/*
+ Table.css
+
+ - Holds the CSS code for the tables of the database
+
+      ***ALL CODE TO BE USED TO VIEWING PURPOSES ONLY. NO REUSING CODE FROM PROJECT***
+*/
+
+
+
+.table-container {
+    margin: 5px;
+}
+
+.table-title {
+    margin: 5px;
+}
+
+.table-toggle-button {
+    margin-left: 10px;
+}
+
+.scrollable-table-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 800px;
+  }
+
+.table {
+    margin: 0;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+.table th {
+    border: 2px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+.table tbody {
+    border-bottom: 1px solid #000000;
+}
+
+.table td {
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 8px;
+}
+
+.table .labels {
+    background-color: #69BE28;
+}
+
+.table .row {
+    background-color: #ededed;
+}
+  

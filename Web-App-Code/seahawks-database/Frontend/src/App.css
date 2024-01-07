@@ -1,0 +1,72 @@
+/*
+ App.css
+
+ - Main CSS file in the front end.
+ - Holds the CSS code for WebTitle, Description, images, QueryEntry, and Tables objects
+
+      ***ALL CODE TO BE USED TO VIEWING PURPOSES ONLY. NO REUSING CODE FROM PROJECT***
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #002244;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 50px;
+  min-height: 100vh;
+}
+
+.webTitle {
+  padding: 8px;
+  margin: 0 auto;
+  border-bottom: 8px solid #A5ACAF;
+  font-size: 20px;
+}
+.webTitle h1 {
+  color: #69BE28;
+}
+
+.description {
+  text-align: center;
+  padding: 10px;
+}
+
+.image1 {
+  width: 362px;
+  height: 200px;
+  position: absolute;
+  object-fit: contain;
+  top: -10px;
+  left: 80px;
+}
+.image2 {
+  width: 480px;
+  height: 300px;
+  position: absolute;
+  object-fit: contain;
+  top: -50px;
+  right: 20px;
+}
+
+.query-section {
+  width: 40%;
+  position: absolute;
+  top: 220px;
+  right: 100px;
+}
+
+.tables-section {
+  width: 40%;
+  position: absolute;
+  top: 220px;
+  left: 20px;
+}
